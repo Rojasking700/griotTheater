@@ -5,6 +5,12 @@ nav{
     display: inline;
     border: 5px solid black;
 }
-span{
-    display: inline;
+div{
+    background-image: url("pics/theater-image-background.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
