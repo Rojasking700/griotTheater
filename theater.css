@@ -1,9 +1,29 @@
-/* body{
-    font-family: roboto;
-} */
+
+body{
+    font-family: Roboto;
+}
 nav{
-    display: inline;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+    padding:10px;
+    background-color: black;
     border: 5px solid black;
+    color:white;
+}
+nav a{
+    flex-grow: 1;
+    color: white;
+}
+nav a:link{
+    text-decoration: none;
+}
+nav a:hover{
+    color:yellow;
+}
+nav a:nth-child(1){
+    flex-grow: 2;
+    font-size: 200%;
 }
 .container1{
     background-image: url("pics/theater-image-background.jpg");
