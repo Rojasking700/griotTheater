@@ -54,6 +54,9 @@ nav a:nth-child(1){
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 5%;
+    height: 30px;
+    font-size: 150%;
+    padding-left: 2%;
 
 }
 .group{
@@ -77,11 +80,15 @@ nav a:nth-child(1){
 .child{
     height: 200px;
 }
+.group div h4{
+    font-size: 150%;
+}
 .button{
     background-color: Yellow;
     padding: 10px;
     border: 1px solid black;
     transition-duration: 0.4s;
+    font-size: 20px;
 }
 .button:hover{
     background-color: white;
